@@ -13,7 +13,7 @@ setup(
     long_description=README,
     author='Tahsin Hassan Rahit',
     author_email='tahsin.rahit@gmail.com',
-    url='http://github.com/rahit/django-faceit',
+    url='http://github.com/rahit/faceit',
     packages=['faceit'],
     install_requires=['Django >=1.5','facepy'],
     include_package_data=True,
