@@ -21,15 +21,17 @@ Quick start
     )
 
 2. specify these setting in your setting.py file.
-```
 
-FACEBOOK_APPLICATION_ID = your facebook app id
-FACEBOOK_AUTHORIZATION_REDIRECT_URL = redirect url after authentication
-FACEBOOK_APPLICATION_SECRET_KEY = your facebook app secret key
-FACEBOOK_APPLICATION_SCOPE = a list of permission. ex: ['email', 'publish_stream']
+    FACEBOOK_APPLICATION_ID = your facebook app id
+    
+    FACEBOOK_AUTHORIZATION_REDIRECT_URL = redirect url after authentication
+    
+    FACEBOOK_APPLICATION_SECRET_KEY = your facebook app secret key
+    
+    FACEBOOK_APPLICATION_SCOPE = a list of permission. ex: ['email', 'publish_stream']
 
-```
-Note: Make sure you have specified *email* permission in scope.
+
+**Note: Make sure you have specified *email* permission in scope.**
 
 3. Run `python manage.py migrate` to create the faceit related models.
 
